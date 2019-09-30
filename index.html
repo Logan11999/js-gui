@@ -45,22 +45,14 @@
         <hr>
 
         <fieldset class="mt-4">
-          <label for="guest">Enter your name (2 to 40 characters):</label>
-          <input id="guest" type="text" minlength="2" maxlength="40" value="Lilly">
+          <label id="timeLBL">Time:</label>
+          <label id="minutes">0</label>
+          <label id="minute">0</label>
+          <label id="seperator">:</label>
+          <label for="seconds">0</label>
+          <label for="second">0</label>
         </fieldset>
-
-        <fieldset class="mt-4">
-          <label for="firstNumber">Enter first number (1 to 100):</label>
-          <input id="firstNumber" type="number" min="1" max="100" value=7>
-          <span id="firstWarning" class="text-danger"></span>
-        </fieldset>
-
-        <fieldset class="mt-4">
-          <label for="secondNumber">Enter second number (1 to 100):</label>
-          <input id="secondNumber" type="number" min="1" max="100" value="12">
-          <span id="secondWarning" class="text-danger"></span>
-        </fieldset>
-
+        
       </div>
       <!--end column 1-->
 
@@ -68,9 +60,9 @@
       <div class="col-md-5 mb-4">
         <h2>Try these:</h2>
         <hr>
-        <button id="addButton" class="btn btn-primary">Add</button>
-        <button id="getJokeButton" class="btn btn-success">Get Joke</button>
-        <button id="clicker" class="btn btn-indigo">Coming soon!</button>
+        <button id="start" class="btn btn-primary">Start</button>
+        <button id="stop" class="btn btn-success">Stop</button>
+        <button id="reset" class="btn btn-indigo">Reset</button>
         <hr>
         <p id="result"></p>
 
